@@ -1,0 +1,181 @@
+*{margin: 0;
+    padding: 0;
+
+}
+/* header navigation.. */
+#logo{
+height: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+ul>li{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20;
+}
+ul>li>a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 20;
+}
+
+ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+/* .... */
+
+
+/* body ....*/
+body{
+    background-image: url(./image/hero-bg.png);
+    font-family: inter;
+}
+
+/* sec one ...*/
+
+/* section */
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 60px;
+}
+/* ... */
+
+button{
+    background-color: rgb(75, 16, 237);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    gap: 3px;
+}
+.button{
+    margin-top: 20px;
+}
+#hero-img{
+    height: 300px;
+
+}
+#subt{
+    margin-top: 20px ;
+    color: grey;
+}
+#subh{
+    color: rgb(31, 237, 27) ;
+    font-size: 25px;
+}
+h1{
+    color: chocolate;
+    font-size: 40px;
+}
+ul>li>a{
+    color: aliceblue;
+    padding: 5px;
+}
+/* ...... */
+
+/* sec two flex... */
+
+
+section{
+    width: 1140px;
+    margin: 0 auto ;
+
+}
+
+/*  h2 */
+.seche{
+    font-size: 35px;
+    color: rgb(45, 34, 245);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* card layout... */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.two{
+    background-color: rgba(61, 59, 59, 0.826);
+    padding: 20px;
+    margin: 10px 15px;
+    border-radius: 20px;
+    position: relative;
+
+}
+/* card details.. */
+.ch{
+text-align: center;
+color: rgb(218, 6, 204);
+
+}
+.cp{
+padding: 25px 15px;
+color: #cdcdcd;
+text-align: justify;
+margin-bottom: 20px;
+}
+/* card button... */
+.btn{
+    background-color: #4f4646;
+    border: 1px solid rgba(238, 37, 198, 0.918) ;
+    border-radius: 4px;
+    color: rgb(254, 105, 180);
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+/* ..... */
+
+
+/* sec 3 grid */
+.grid{
+    width: 1140px;
+    margin: 0 auto ;
+}
+/* heading */
+.ph{
+   color:  rgb(218, 6, 204);
+text-align: center;
+font-family: inter;
+font-size: 30px;
+
+}
+/* img */
+.pi{
+height: 20px !important;
+position: absolute;
+bottom: 10px;
+right: 20px; 
+}
+/* grid layout... */
+.gridl{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    padding-bottom: 10px;
+}
+/* grid div... */
+.gri{
+    background-color: rgba(61, 59, 59, 0.826);
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #D336F8;
+    height: 120px;
+    position: relative;
+
+}
+
